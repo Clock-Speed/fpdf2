@@ -18,6 +18,7 @@ This can also be enabled programmatically with `warnings.simplefilter('default',
 
 ## [2.7.9] - Not released yet
 ### Added
+* allow to define custom `cell_fill_mode` logic for tables: [_Set cells background_ - documentation section](https://py-pdf.github.io/fpdf2/Tables.html#set-cells-background)
 
 ### Fixed
 
@@ -47,7 +48,7 @@ This can also be enabled programmatically with `warnings.simplefilter('default',
 * outer table borders are now drawn continuously for nonzero `gutter_width`/`gutter_height`, with spacing applied inside the border similar to HTML tables - thanks to @mjasperse - cf. [#1071](https://github.com/py-pdf/fpdf2/issues/1071)
 * removed the requirement that all rows in a `Table` have the same number of columns - thanks to @mjasperse
 ### Deprecated
-- font aliases (`Arial` → `Helvetica`, `CourierNew` → `Courer`, `TimesNewRoman` → `Times`). They will be removed in a later release.
+- font aliases (`Arial` → `Helvetica`, `CourierNew` → `Courier`, `TimesNewRoman` → `Times`). They will be removed in a later release.
 
 ## [2.7.7] - 2023-12-10
 ### Added
